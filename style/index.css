@@ -60,3 +60,91 @@ button a{
    margin-right: 200px;
    margin-bottom: 200px;
 }
+
+/* Media Queries */
+
+@media(max-width:800px) {
+   
+ .row{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+
+ header{
+     width: 95%;
+ }
+ 
+ 
+ h1{
+     text-align: center;
+ }
+ 
+ 
+ nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .top-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+  
+ }
+ 
+ nav button a{
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+ nav button{
+     width: 100px;
+     display: flex;
+     
+ }
+
+ .top-text{
+  
+    text-align: center;
+ }
+
+ .profile{
+    margin-left: 200px;
+ }
+
+
+
+
+}
+
+
+@media(max-width:500px) {
+   
+
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .row img{
+        width: 200px;
+        height: 200px;
+    }
+   
+    .top-text{
+        margin-right: 100px; 
+    }
+
+.profile{
+    position: relative;
+    right: 40px;
+}
+
+
+}
